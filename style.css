@@ -111,9 +111,8 @@ section{
 
 /* home */
 .icon{
-    max-height: 30px;
-    margin-left: 15%;
-    vertical-align: middle;
+    max-height: 20px;
+
     
 }
 
@@ -130,10 +129,35 @@ section{
     text-align: center;
 }
 
-a center{
-    height: 150px;
+.red_border_center{
+    border:solid 1px #EF4026;
+    height: 150px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: #EF4026;
+    padding: 65px 0px;
     text-align: center;
     vertical-align: middle;
+}
+
+.no_border_center{
+    height: 150px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: #EF4026;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+a.inline{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    color:#EF4026 ;
+    background-color: #ffffff;
+    padding: 2px;
 }
 
 /* tiles */
@@ -175,7 +199,19 @@ a center{
     margin: 0 auto;
 }
 
+.parent_flame{
+    position: relative;
+}
 
+.child_flame_bottomright {
+    position: absolute;
+    bottom:0;
+    right:0;
+    text-align: right;
+    font-size: 10px;
+    color: #ffffff;
+    text-shadow: 1.5px 1.5px 1.5px 1.5px rgb(151, 151, 151);
+}
 
 
 /* labels */
