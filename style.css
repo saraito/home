@@ -1,17 +1,334 @@
+html{
+    font-family: "Nanum Gothic";
+}
+
 body{
-  background-color: #ffe0e0;
-  font-family:Arial, Helvetica, sans-serif;
-  padding: 50px;
+    padding: 30px;
+    font-family: "Nanum Gothic";
+    
 }
 
 h1{
-  font-size: 24px;
+    font-size: 32px;
+    color: #ffffff;
 }
 
 h2{
-  font-size:18px;
-}
+    font-size: 24px;
+    }
 
 h3{
-  font-size: 14px;
+    font-size:18px; 
 }
+
+
+
+.list-unstyled{
+    list-style: none;
+    display: inline;
+}
+
+
+ .project_link{
+     background-color: #E9E9E9;
+     display: inline-block;
+     width: 100%;
+     border-radius: 8px;
+     padding: 8px;
+ }
+
+ img {
+     display: block;
+     margin: auto;
+     max-height: 100%;
+ }
+
+.cover{
+    max-height: 100px;
+    object-fit: cover;
+  
+ }
+
+ .muon_photo_fill{
+     height: 150px;
+     background: url("img/muon_cover.jpeg");
+     background-size: cover;
+     background-position: center;
+     }
+
+ .aimokawarazu_photo_fill{
+        height: 150px;
+        background: url("img/aimokawarazu/aimokawarazu_main.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+.kodak_photo_fill{
+        height: 150px;
+        background: url("img/kodak/kodak_main.png");
+        background-size: cover;
+        background-position: center;
+    }
+.varietas_photo_fill{
+        height: 150px;
+        background: url("img/icon/comingsoon.png");
+        background-size: cover;
+        background-position: center;
+    }
+.sayakanasu_photo_fill{
+        height: 150px;
+        background: url("img/sayakanasu/sayakanasu_main.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+.hawkeye_photo_fill{
+        height: 150px;
+        background: url("img/hawkeye/hawkeye_black.JPG");
+        background-size: cover;
+        background-position: center;
+    }
+
+.curbonbranding_photo_fill{
+        height: 150px;
+        background: url("img/curbon_logo/curbon_logo.png");
+        background-size: cover;
+        background-position: center;
+    }
+ .on_the_photo{
+     position: absolute;
+ }
+
+ .project_link, summery{
+     padding: 10px;
+     font-size: 12px;
+     text-align: left;
+ }
+
+section{
+    margin: 10px;
+}
+
+/* home */
+.icon{
+    max-height: 30px;
+    margin-left: 15%;
+    vertical-align: middle;
+    
+}
+
+.overview_text{
+    padding: 4% 10%;
+}
+
+
+.red_border_tile_center{
+    border:solid 1px #EF4026;
+    color: #EF4026;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+a center{
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* tiles */
+.red_fill{
+    color: #ffffff;
+    background-color:#EF4026 ;
+    height: 150px;
+    vertical-align: baseline;
+
+}
+
+.gray_fill{
+    background-color:#8d8d8d;
+    height: 150px;
+    color: #ffffff;
+
+}
+
+.red_border{
+    border:solid 1px #EF4026;
+    color: #EF4026;
+    height: 150px;
+    
+}
+
+.red_border_high{
+    border:solid 1px #EF4026;
+    color: #EF4026;
+    height: 230px;
+}
+
+.gray_border{
+    border:solid 1px #8d8d8d ;
+    color:#8d8d8d;
+}
+
+.no_border{
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+
+
+/* labels */
+.red_label{
+    background-color: #EF4026;
+    color: #ffffff;
+    float: left;
+    padding: 0px 5px;
+}
+
+.gray_label{
+    background-color: #8d8d8d;
+    color: #ffffff;
+    float: left;
+    padding: 0px 5px;
+}
+
+
+
+.white_red_label
+{
+    background-color: #ffffff;
+    color: #EF4026;
+    float: left;
+    padding: 0px 5px;
+}
+.white_gray_label
+{
+    background-color: #ffffff;
+    color: #8d8d8d;
+    float: left;
+    padding: 0px 5px;
+}
+
+/* text */
+p.red_text{
+    color: #EF4026;
+    padding: 5%;
+}
+
+/* margin */
+ .col,
+ [class*="col-"] {
+   padding-right: 0;
+   padding-left: 0;}
+
+#left{
+    padding: 2% 5%;
+    margin-bottom: 0px;
+}
+
+/* page */
+
+.page_body{
+    margin: 0% 5% ;
+}
+
+.page_category{
+    background-color: #8d8d8d;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 0px 5px;
+}
+
+.page_summery{
+    margin-bottom:30px;
+}
+
+.page_right{
+    margin-top: 3%;
+
+}
+
+.page_image{
+    max-width: 95%;
+    float: left;
+    margin-top: 7%;
+    padding-bottom: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+ul.page_list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#EF4026; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 2em; /* Also needed for space (tweak if needed) */
+    margin-left: -2em; /* Also needed for space (tweak if needed) */
+  }
+
+.page_link{
+    color: #EF4026;
+
+}
+
+.fit {
+    max-width: 99%;
+    max-height: 99%;
+  }
+
+/* links */
+a{
+    text-decoration: none;
+}
+
+
+
+/* nav */
+
+table{
+    width: 97.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+td{
+    text-align: center; 
+    vertical-align: middle;
+    font-size: 12px;
+ 
+}
+
+td.rightalign{
+    float: right;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+td.leftalign{
+    float: left;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.navlink {
+    width: 100px;
+    color: #EF4026;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+  }
+
+.navlink_none{
+    width: 100px;
+    text-align: center;
+    color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    visibility: hidden;
+  
+  }

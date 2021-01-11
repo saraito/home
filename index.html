@@ -3,45 +3,177 @@
 <head>
   <meta charset="UTF-8" /> 
   <title>Sara Ito</title> 
-  <link rel="stylesheet" href="style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum Gothic">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
 </head>
+ 
 
-<header>
-<h1>Sara Ito</h1>
-<p>I am a multi-skilled designer with a business background based in Tokyo and surrounding area.</p>
-<a href="resume.html"> RESUME </a>
-<ul>
-  <li><a href="https://www.instagram.com/saraitokyo/?hl=en">Instagram</a></li>
-  <li><a href="https://www.linkedin.com/in/saraito/">Linkedin</a></li>
-  <li>e-mail</li>
-<ul>
+<div class="col-sm-12">
+  
+  <nav>
+ 
+    <table>
+      <tr>
+        <td class="leftalign">
+          <a class="navlink_none" href="index.html" >Back</a>
+        </td>
+        <td>
+          Quick Overview
+        </td>
+        <td class="rightalign">
+          <a class="navlink" href="all_project.html" >All Projects</a>
+        </td>
+      </tr>
+    </table>
 
-</header>
-  <body >
-          <nav>
-            <a href="home" class="current">Home</a>
+    
+  </nav>
+ </div> 
 
-          </nav>
-  <section>
-    <h2>About me</h2>
-    <h3>Experience</h3>
-    <h3>Education & Certificate</h3>
-    <h3>Skills</h3>
+<body>
 
-  </section>
-          <section>
-     <h2>Approach</h2>
+  <!-- left -->
+  <!-- 2 rows tile -->
+  <div class="col-12 col-sm-6">
+     <section class= "red_fill" id="left"> 
+      <h2>Sara Ito</h2>
+      <p>I am a multi-skilled designer with a business background based in Tokyo and surrounding area.</p>
+       
+     </section>
+     <!-- left left -->
+     <div class="col-12 col-sm-6">
+      <a href="https://www.linkedin.com/in/saraito/"><section class= "red_border_high">  
+          <span class="red_label">
+            Experience
+          </span><br>
+          <p class="overview_text">
+            2019-ongoing<br>
+            Solution Designer<br>
+            @Mitsubishi Electric Japan<br>
+            --<br>
+            2020-ongoing<br>
+            UX Lead<br>
+            @VARIETAS<br>
+          </p>
+      </section>
+    </a>
 
-   </section>
-   <section>
-    <h2>Projects</h2>
+      <section class= "red_border_high">  
+        <span class="red_label">
+          Education
+        </span><br>
+        <p class="overview_text">
+          2015-2019<br>
+          BA Business & Marketing<br>
+          @ Hitotsubashi University<br>
+          --<br>
+          2020<br>
+          Advanced Design Thinking Cetificate<br>
+          @ IDEOU<br>
+        </p>
+    
+      </section>
+     </div>
+     <!-- left right -->
+     <div class="col-12 col-sm-6">
+      <section class="red_border">    
+        <a class="red center" href="resume.html"> RESUME </a>
+      </section>
 
-  </section>
+      <section class= "no_border" class="center"> 
+        <a href="https://www.instagram.com/saraitokyo/?hl=en"><img class="icon" src="img/icon/instagram@300x.png" alt="instagram"></a>
+        <a href="https://www.linkedin.com/in/saraito/"><img class="icon" src="img/icon/linkedin@300x.png" alt="linkedin"></a>
+        <a href="mailto:sara.ito16@gmail.com"><img class="icon" src="img/icon/email@300x.png" alt="e-mail"></a>
+        <!-- <img class=src="img/hand.png">  -->
+    
+      </section>
 
-  </body>
+      <section class= "red_fill">  
+        <span class="white_red_label">
+          Founder
+        </span><br>
+        <p class="tile_center">
+          Ai & Design Lab
+        </p>
+    
+      </section>
+      </div>
+     
+  </div>
+
+<!-- right -->
+  <div class="col-12 col-sm-6">
+    <!-- right left -->
+    <a href="aimokawarazu.html"><div class="col-12 col-sm-6">
+      <section class= "gray_border aimokawarazu_photo_fill">  
+        <span class="gray_label">
+          Web Design
+        </span><br>
+        <br>
+      </section></a>
+
+      <a href="muon.html"><section class= "gray_border muon_photo_fill">  
+        <span class="gray_label on_the_photo">
+          Photography
+        </span>
+      </section></a>
+    
+     <a href="kodakprofessional.html"><section class= "gray_border kodak_photo_fill">  
+      <span class="gray_label on_the_photo">
+        Graphic Design
+      </span>
+    </section></a>
+
+    <a href="sayakanasu.html"><section class= "gray_border sayakanasu_photo_fill">  
+      <span class="gray_label on_the_photo">
+        Graphic Design
+      </span>
+    </section></a>
+           
+   </div>
+     
+
+    <!-- right right -->
+     <div class="col-12 col-sm-6">
+      <a href="designapproach.html"><section class= "gray_fill">  
+        <span class="white_gray_label">
+          Design Approach
+        </span><br>
+        <br>
+        
+      </section></a>
+
+      <a href="hawkeye.html"><section class= "gray_border hawkeye_photo_fill">  
+        <span class="gray_label on_the_photo">
+          Photography
+        </span>
+      </section></a>
+
+      <a href="curbonbranding.html"><section class= "gray_border curbonbranding_photo_fill">  
+        <span class="gray_label on_the_photo">
+          Brand Design
+        </span>
+      </section></a>
+
+      <a href=""><section class= "gray_border varietas_photo_fill">  
+        <span class="gray_label on_the_photo">
+          UX Design
+        </span>
+      </section></a>
+    
+ </div>
+
+ <script type="text/javascript" src="js/main.js"></script>
+</body>
 
 </html>
+
 
 
 
